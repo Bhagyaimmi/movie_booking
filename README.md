@@ -272,7 +272,7 @@ Refer to the **Payload Examples** provided for each endpoint.
 To access Swagger UI documentation, run the server and navigate to:
 
 ```
-http://127.0.0.1:8000/swagger/
+http://127.0.0.1:8000/api/swagger/
 
 ![Alt text](movie_booking/swagger.png?raw=true "Swagger")
 ```
