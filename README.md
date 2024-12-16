@@ -273,6 +273,8 @@ To access Swagger UI documentation, run the server and navigate to:
 
 ```
 http://127.0.0.1:8000/swagger/
+
+![Alt text](movie_booking/swagger.png?raw=true "Swagger")
 ```
 
 ---
