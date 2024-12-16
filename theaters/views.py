@@ -12,7 +12,6 @@ from .serializers import (
 from .models import Theater, Screen, Movie
 from .serializers import TheaterSerializer, ScreenSerializer, MovieSerializer
 
-
 class TheaterCreateView(APIView):
     def post(self, request):
         serializer = TheaterSerializer(data=request.data)

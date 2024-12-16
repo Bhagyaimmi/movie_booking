@@ -42,22 +42,14 @@ $ git clone <repository_url>
 $ cd movie-booking-system
 ```
 
-### **2. Install Dependencies**
-
-```bash
-$ python3 -m venv venv
-$ source venv/bin/activate
-$ pip install -r requirements.txt
-```
-
-### **3. Apply Migrations**
+### **2. Apply Migrations**
 
 ```bash
 $ python manage.py makemigrations
 $ python manage.py migrate
 ```
 
-### **4. Run the Server**
+### **3. Run the Server**
 
 ```bash
 $ python manage.py runserver
@@ -92,7 +84,7 @@ $ python manage.py runserver
 
 ---
 
-### **2. Create Screen**
+### **3. Create Screen**
 
 **Endpoint:** `POST /api/theater/create/`
 
@@ -117,7 +109,7 @@ $ python manage.py runserver
 
 ---
 
-### **3. Create Movie**
+### **4. Create Movie**
 
 **Endpoint:** `POST /api/movie/create/`
 
@@ -142,7 +134,7 @@ $ python manage.py runserver
 
 ---
 
-### **4. Add Weekly Schedule and Unavailability**
+### **5. Add Weekly Schedule and Unavailability**
 
 **Endpoint:** `POST /api/theatre/3/availability/`
 
@@ -170,7 +162,7 @@ $ python manage.py runserver
 
 ---
 
-### **5. Add Custom Unavailability**
+### **6. Add Custom Unavailability**
 
 **Endpoint:** `POST /api/theatre/3/custom-unavailability/`
 
@@ -196,7 +188,7 @@ $ python manage.py runserver
 
 ---
 
-### **6. Fetch Available Slots**
+### **7. Fetch Available Slots**
 
 **Endpoint:** `GET /api/theatre/1/slots/`
 
